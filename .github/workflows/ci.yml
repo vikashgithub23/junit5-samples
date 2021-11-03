@@ -25,3 +25,6 @@ jobs:
     - name: Build with Maven
       working-directory: "junit5-migration-maven"
       run: mvn -B package --file pom.xml
+    - name: test with maven
+      run: mvnw clean test
+       
